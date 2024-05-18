@@ -37,8 +37,8 @@ calc_avr = (n-1)*p
 
 # разница значений
 res = calc_avr - res_python
-print("Средняя степень вершины фактическая: ", round(res_python, 4))
-print("Средняя степень вершины по формуле: ", round(calc_avr, 4))
+print("Фактическая средняя степень вершины : ", round(res_python, 4))
+print("Средняя степень вершины согласно формулы (n-1)*p: ", round(calc_avr, 4))
 print("Полученная разница значений: ", round(abs(res), 4))
 
 
